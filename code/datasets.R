@@ -73,9 +73,6 @@ raus = c(9962, 3633, 40, 3692, 3660, 3794, 3770, 3771, 3772, 3053, 9936, 3736, 1
          220, 221, 224, 226, 225, 228, 227, 3506, 205, 207, 2262, 209, 150, 138, 210, 211, 152, 148, 146,137, 155, 132, 2136, 133, 216, 144, 201, 141, 140)
 clas = clas[!(clas$task_id %in% raus),]
 
-# nur binäre Response
-clas = clas[clas$NumberOfClasses == 2, ]
-
 # Getrennte Analyse für kleine und große Datensätze
 clas_small = clas[which(clas$NumberOfInstances < 1000 & clas$NumberOfFeatures < 1000 & clas$NumberOfClasses < 30),]
 clas_big = clas[which(!(clas$NumberOfInstances < 1000 & clas$NumberOfFeatures < 1000 & clas$NumberOfClasses < 30)),]
