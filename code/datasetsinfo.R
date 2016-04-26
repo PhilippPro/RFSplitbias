@@ -27,12 +27,5 @@ for (i in 1:nrow(tasks)) {
   nfactor[[i]] = table(sapply(as.data.frame(data[,sapply(data, class) == "factor"]), nlevels))
 }
 
-data.frame(datasetsinfo[,5]- tasks[,]$NumberOfSymbolicFeatures)
-datasetsinfo[, 3] == datasetsinfo[, 4] + datasetsinfo[, 5]
-nfactor[1:20]
-
-datasetsinfo[1:10,]
-tasks[1:20,]
-
 save(datasetsinfo, nfactor, file="/home/probst/Random_Forest/RFSplitbias/results/datasetsinfo.RData")
   

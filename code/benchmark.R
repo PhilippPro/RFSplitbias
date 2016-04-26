@@ -8,11 +8,11 @@ setwd(paste0(dir,"/results"))
 load(paste0(dir,"/results/clas.RData"))
 load(paste0(dir,"/results/reg.RData"))
 
-setConfig(conf = list(cluster.functions = makeClusterFunctionsMulticore(9)))
+setConfig(conf = list(cluster.functions = makeClusterFunctionsMulticore(4)))
 
 tasks = rbind(clas_small, reg_small)
 regis = makeExperimentRegistry(id = "Splitbias", packages=c("OpenML", "mlr", "randomForest"), 
-                               work.dir = paste(dir,"/results", sep = ""), seed = 1)
+                               work.dir = paste(dir,"/results", sep = ""), src.dirs = paste(dir,"/functions", sep = ""), seed = 1)
 
 gettask = function(static, idi, learner, teststat, testtype) {
   task = getOMLTask(task.id = idi, verbosity=0)$input$data.set
@@ -27,9 +27,9 @@ forest.splitbias.wr = function(static, dynamic, ...) {
     dynamic$data = dynamic$data[dynamic$data[, dynamic$target] %in% names(lvl[lvl >= 5]), ] 
     dynamic$data[,dynamic$target] = droplevels(as.factor(dynamic$data[,dynamic$target]))
     if(length(levels(as.factor(dynamic$data[,dynamic$target]))) == 2){
-      measures =  list(auc, brier, f1, mmce, ber)
+      measures =  list(acc, auc, ber, brier, f1, mmce)
     } else {
-      measures = list(acc, ber, mmce)
+      measures = list(acc, ber, multiclass.brier, mmce)
     }
     if (as.character(dynamic$learner) == "cforest") {
       lrn = makeLearner("classif.cforest", par.vals = list(mtry = floor(sqrt(ncol(dynamic$data)-1)),
@@ -77,7 +77,10 @@ splitrule.design = makeDesign("taski", design = splitrule.design)
 addExperiments(regis, repls = 1, prob.designs = splitrule.design, algo.designs = forest.design) 
 
 testJob(regis)
-submitJobs(regis)
+
+chunks = chunk(findNotSubmitted(regis), chunk.size = 100)
+
+submitJobs(regis, ids = chunks)
 submitJobs(regis, findNotDone(regis))
 showStatus(regis)
 
