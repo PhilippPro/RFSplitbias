@@ -1,4 +1,3 @@
-# Evtl Batchexperiments verwenden
 library(BatchExperiments)
 library(mlr)
 
@@ -8,7 +7,7 @@ setwd(paste0(dir,"/results"))
 load(paste0(dir,"/results/clas.RData"))
 load(paste0(dir,"/results/reg.RData"))
 
-setConfig(conf = list(cluster.functions = makeClusterFunctionsMulticore(4)))
+setConfig(conf = list(cluster.functions = makeClusterFunctionsMulticore(9)))
 
 tasks = rbind(clas_small, reg_small)
 regis = makeExperimentRegistry(id = "Splitbias", packages=c("OpenML", "mlr", "randomForest"), 
@@ -44,7 +43,7 @@ forest.splitbias.wr = function(static, dynamic, ...) {
       lrn = makeLearner("classif.randomForest", par.vals = list(ntree = 1000, replace = FALSE), predict.type = "prob")
     }
     task = makeClassifTask(id = "splitbias", data = dynamic$data, target = dynamic$target)
-    desc = makeResampleDesc(method = "RepCV", folds = 5, reps = 2, stratify = TRUE)
+    desc = makeResampleDesc(method = "RepCV", folds = 5, reps = 50, stratify = TRUE)
   } else {
     measures = list(mae, medae, medse, mse)
     if (as.character(dynamic$learner) == "cforest") {
@@ -59,7 +58,7 @@ forest.splitbias.wr = function(static, dynamic, ...) {
       lrn = makeLearner("regr.randomForest", par.vals = list(ntree = 1000, replace = FALSE))
     }
     task = makeRegrTask(id = "splitbias", data = dynamic$data, target = dynamic$target)
-    desc = makeResampleDesc(method = "RepCV", folds = 5, reps = 2)
+    desc = makeResampleDesc(method = "RepCV", folds = 5, reps = 50)
   }
   res = resample(lrn, task, resampling = desc, measures = measures)
   list(idi = dynamic$idi, lrn = c(as.character(dynamic$learner), as.character(dynamic$teststat), as.character(dynamic$testtype)), result = res$measures.test)
@@ -83,6 +82,3 @@ chunks = chunk(findNotSubmitted(regis), chunk.size = 100)
 submitJobs(regis, ids = chunks)
 submitJobs(regis, findNotDone(regis))
 showStatus(regis)
-
-res = loadResults(regis)
-res
