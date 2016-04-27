@@ -5,10 +5,6 @@ dir = "/home/probst/Random_Forest/RFSplitbias"
 load(paste0(dir, "/results/datasetsinfo.RData"))
 
 regis = loadRegistry(paste0(dir, "/results/Splitbias-files"))
-load(paste(dir,"/results/clas.RData", sep = ""))
-load(paste(dir,"/results/reg.RData", sep = ""))
-tasks = rbind(clas_small, reg_small)
-
 res = loadResults(regis)
 
 # globale Ergebnisse
