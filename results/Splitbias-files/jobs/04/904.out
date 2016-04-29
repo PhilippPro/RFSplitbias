@@ -1,0 +1,2111 @@
+Loading registry: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/registry.RData
+Loading conf: 
+2016-04-28 14:15:35: Starting job on node lin65.
+Auto-mailer settings: start=none, done=none, error=none.
+Setting work dir: /nfsmb/koll/probst/Random_Forest/RFSplitbias/results
+########## Executing jid=904 ##########
+Timestamp: 2016-04-28 14:15:36
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3548, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 904 
+  Problem seed: 123 
+Setting seed: 904
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3548
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.68 0.337 0.404 0.32 0.638
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/04/904-result.RData
+########## Executing jid=905 ##########
+Timestamp: 2016-04-28 14:15:37
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3782, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 905 
+  Problem seed: 123 
+Setting seed: 905
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3782
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.975 0.0263 0.0371 0.025 0.485
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/05/905-result.RData
+########## Executing jid=906 ##########
+Timestamp: 2016-04-28 14:15:37
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3656, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 906 
+  Problem seed: 123 
+Setting seed: 906
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3656
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.628 0.379 0.533 0.372 0.672
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/06/906-result.RData
+########## Executing jid=907 ##########
+Timestamp: 2016-04-28 14:15:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3553, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 907 
+  Problem seed: 123 
+Setting seed: 907
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3553
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.19 0.6 0.807 0.81 1
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/07/907-result.RData
+########## Executing jid=908 ##########
+Timestamp: 2016-04-28 14:15:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3768, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 908 
+  Problem seed: 123 
+Setting seed: 908
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3768
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.769 0.352 0.372 0.231 0.972
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/08/908-result.RData
+########## Executing jid=909 ##########
+Timestamp: 2016-04-28 14:15:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3655, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 909 
+  Problem seed: 123 
+Setting seed: 909
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3655
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.873 0.122 0.194 0.127 0.614
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/09/909-result.RData
+########## Executing jid=910 ##########
+Timestamp: 2016-04-28 14:15:39
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3595, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 910 
+  Problem seed: 123 
+Setting seed: 910
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3595
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9091 0.1068 0.1561 0.0909 0.658
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/10/910-result.RData
+########## Executing jid=911 ##########
+Timestamp: 2016-04-28 14:15:39
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3750, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 911 
+  Problem seed: 123 
+Setting seed: 911
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3750
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.689 0.323 0.558 0.311 0.721
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/11/911-result.RData
+########## Executing jid=912 ##########
+Timestamp: 2016-04-28 14:15:40
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3579, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 912 
+  Problem seed: 123 
+Setting seed: 912
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3579
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.827 0.17 0.262 0.173 0.622
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/12/912-result.RData
+########## Executing jid=913 ##########
+Timestamp: 2016-04-28 14:15:40
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3713, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 913 
+  Problem seed: 123 
+Setting seed: 913
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3713
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.816 0.286 0.348 0.184 0.789
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/13/913-result.RData
+########## Executing jid=914 ##########
+Timestamp: 2016-04-28 14:15:41
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3791, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 914 
+  Problem seed: 123 
+Setting seed: 914
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3791
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.913 0.0876 0.123 0.087 0.5905
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/14/914-result.RData
+########## Executing jid=915 ##########
+Timestamp: 2016-04-28 14:15:42
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3700, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 915 
+  Problem seed: 123 
+Setting seed: 915
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3700
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.854 0.146 0.189 0.146 0.626
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/15/915-result.RData
+########## Executing jid=916 ##########
+Timestamp: 2016-04-28 14:15:42
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3682, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 916 
+  Problem seed: 123 
+Setting seed: 916
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3682
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.646 0.352 0.476 0.354 0.508
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/16/916-result.RData
+########## Executing jid=917 ##########
+Timestamp: 2016-04-28 14:15:43
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3064, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 917 
+  Problem seed: 123 
+Setting seed: 917
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3064
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.5 0.5 0.578 0.5 0.522
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/17/917-result.RData
+########## Executing jid=918 ##########
+Timestamp: 2016-04-28 14:15:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3805, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 918 
+  Problem seed: 123 
+Setting seed: 918
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3805
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.5 0.519 0.864 0.5 0.982
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/18/918-result.RData
+########## Executing jid=919 ##########
+Timestamp: 2016-04-28 14:15:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3809, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 919 
+  Problem seed: 123 
+Setting seed: 919
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3809
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.5 0.5 0.612 0.5 0.492
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/19/919-result.RData
+########## Executing jid=920 ##########
+Timestamp: 2016-04-28 14:15:45
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3559, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 920 
+  Problem seed: 123 
+Setting seed: 920
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3559
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.847 0.153 0.237 0.153 0.76
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/20/920-result.RData
+########## Executing jid=921 ##########
+Timestamp: 2016-04-28 14:15:45
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3738, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 921 
+  Problem seed: 123 
+Setting seed: 921
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3738
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.98 0.0172 0.059 0.02 0.6576
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/21/921-result.RData
+########## Executing jid=922 ##########
+Timestamp: 2016-04-28 14:15:46
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3652, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 922 
+  Problem seed: 123 
+Setting seed: 922
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3652
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.46 0.521 0.8 0.54 0.971
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/22/922-result.RData
+########## Executing jid=923 ##########
+Timestamp: 2016-04-28 14:15:46
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3701, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 923 
+  Problem seed: 123 
+Setting seed: 923
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3701
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.294 0.73 0.725 0.706 0.688
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/23/923-result.RData
+########## Executing jid=924 ##########
+Timestamp: 2016-04-28 14:15:47
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3721, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 924 
+  Problem seed: 123 
+Setting seed: 924
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3721
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.95 0.0714 0.1484 0.05 0.6346
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/24/924-result.RData
+########## Executing jid=925 ##########
+Timestamp: 2016-04-28 14:15:47
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3550, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 925 
+  Problem seed: 123 
+Setting seed: 925
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3550
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.759 0.239 0.325 0.241 0.54
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/25/925-result.RData
+########## Executing jid=926 ##########
+Timestamp: 2016-04-28 14:15:48
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3562, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 926 
+  Problem seed: 123 
+Setting seed: 926
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3562
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.747 0.286 0.433 0.253 0.754
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/26/926-result.RData
+########## Executing jid=927 ##########
+Timestamp: 2016-04-28 14:15:48
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3565, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 927 
+  Problem seed: 123 
+Setting seed: 927
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3565
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.62 0.38 0.416 0.38 0.979
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/27/927-result.RData
+########## Executing jid=928 ##########
+Timestamp: 2016-04-28 14:15:49
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3792, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 928 
+  Problem seed: 123 
+Setting seed: 928
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3792
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.557 0.443 0.589 0.443 0.522
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/28/928-result.RData
+########## Executing jid=929 ##########
+Timestamp: 2016-04-28 14:15:49
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3646, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 929 
+  Problem seed: 123 
+Setting seed: 929
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3646
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.667 0.348 0.427 0.333 0.681
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/29/929-result.RData
+########## Executing jid=930 ##########
+Timestamp: 2016-04-28 14:15:50
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3647, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 930 
+  Problem seed: 123 
+Setting seed: 930
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3647
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9583 0.0405 0.0712 0.0417 0.4868
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/30/930-result.RData
+########## Executing jid=931 ##########
+Timestamp: 2016-04-28 14:15:50
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3621, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 931 
+  Problem seed: 123 
+Setting seed: 931
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3621
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.758 0.242 0.31 0.242 0.554
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/31/931-result.RData
+########## Executing jid=932 ##########
+Timestamp: 2016-04-28 14:15:51
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3643, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 932 
+  Problem seed: 123 
+Setting seed: 932
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3643
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.851 0.149 0.206 0.149 0.659
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/32/932-result.RData
+########## Executing jid=933 ##########
+Timestamp: 2016-04-28 14:15:51
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3577, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 933 
+  Problem seed: 123 
+Setting seed: 933
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3577
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.262 0.738 0.948 0.738 0.762
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/33/933-result.RData
+########## Executing jid=934 ##########
+Timestamp: 2016-04-28 14:15:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3757, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 934 
+  Problem seed: 123 
+Setting seed: 934
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3757
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9545 0.0455 0.0672 0.0455 0.567
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/34/934-result.RData
+########## Executing jid=935 ##########
+Timestamp: 2016-04-28 14:15:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3739, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 935 
+  Problem seed: 123 
+Setting seed: 935
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3739
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.87 0.342 0.164 0.13 0.998
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/35/935-result.RData
+########## Executing jid=936 ##########
+Timestamp: 2016-04-28 14:16:00
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3755, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 936 
+  Problem seed: 123 
+Setting seed: 936
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3755
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.78 0.213 0.296 0.22 0.938
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/36/936-result.RData
+########## Executing jid=937 ##########
+Timestamp: 2016-04-28 14:16:00
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3756, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 937 
+  Problem seed: 123 
+Setting seed: 937
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3756
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.753 0.259 0.407 0.247 0.592
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/37/937-result.RData
+########## Executing jid=938 ##########
+Timestamp: 2016-04-28 14:16:01
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3602, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 938 
+  Problem seed: 123 
+Setting seed: 938
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3602
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.685 0.313 0.43 0.315 0.455
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/38/938-result.RData
+########## Executing jid=939 ##########
+Timestamp: 2016-04-28 14:16:01
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3801, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 939 
+  Problem seed: 123 
+Setting seed: 939
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3801
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.619 0.416 0.417 0.381 0.943
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/39/939-result.RData
+########## Executing jid=940 ##########
+Timestamp: 2016-04-28 14:16:02
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3540, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 940 
+  Problem seed: 123 
+Setting seed: 940
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3540
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.808 0.241 0.261 0.192 0.894
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/40/940-result.RData
+########## Executing jid=941 ##########
+Timestamp: 2016-04-28 14:16:03
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3597, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 941 
+  Problem seed: 123 
+Setting seed: 941
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3597
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.698 0.302 0.425 0.302 0.487
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/41/941-result.RData
+########## Executing jid=942 ##########
+Timestamp: 2016-04-28 14:16:03
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3728, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 942 
+  Problem seed: 123 
+Setting seed: 942
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3728
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.633 0.377 0.478 0.367 0.602
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/42/942-result.RData
+########## Executing jid=943 ##########
+Timestamp: 2016-04-28 14:16:04
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3680, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 943 
+  Problem seed: 123 
+Setting seed: 943
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3680
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.808 0.19 0.236 0.192 0.579
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/43/943-result.RData
+########## Executing jid=944 ##########
+Timestamp: 2016-04-28 14:16:04
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3748, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 944 
+  Problem seed: 123 
+Setting seed: 944
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3748
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.99237 0.01042 0.01784 0.00763 0.76443
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/44/944-result.RData
+########## Executing jid=945 ##########
+Timestamp: 2016-04-28 14:16:05
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3538, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 945 
+  Problem seed: 123 
+Setting seed: 945
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3538
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.765 0.243 0.35 0.235 0.807
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/45/945-result.RData
+########## Executing jid=946 ##########
+Timestamp: 2016-04-28 14:16:05
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3784, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 946 
+  Problem seed: 123 
+Setting seed: 946
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3784
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9773 0.0276 0.0715 0.0227 0.6206
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/46/946-result.RData
+########## Executing jid=947 ##########
+Timestamp: 2016-04-28 14:16:06
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3808, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 947 
+  Problem seed: 123 
+Setting seed: 947
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3808
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.829 0.172 0.26 0.171 0.469
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/47/947-result.RData
+########## Executing jid=948 ##########
+Timestamp: 2016-04-28 14:16:06
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3637, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 948 
+  Problem seed: 123 
+Setting seed: 948
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3637
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.722 0.275 0.38 0.278 0.496
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/48/948-result.RData
+########## Executing jid=949 ##########
+Timestamp: 2016-04-28 14:16:07
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3669, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 949 
+  Problem seed: 123 
+Setting seed: 949
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3669
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.7 0.3 0.393 0.3 0.509
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/49/949-result.RData
+########## Executing jid=950 ##########
+Timestamp: 2016-04-28 14:16:07
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3649, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 950 
+  Problem seed: 123 
+Setting seed: 950
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3649
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.75 0.25 0.34 0.25 0.58
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/50/950-result.RData
+########## Executing jid=951 ##########
+Timestamp: 2016-04-28 14:16:08
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=10094, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 951 
+  Problem seed: 123 
+Setting seed: 951
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 10094
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.84 0.209 0.234 0.16 0.864
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/51/951-result.RData
+########## Executing jid=952 ##########
+Timestamp: 2016-04-28 14:16:08
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3580, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 952 
+  Problem seed: 123 
+Setting seed: 952
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3580
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.512 0.525 0.635 0.488 0.771
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/52/952-result.RData
+########## Executing jid=953 ##########
+Timestamp: 2016-04-28 14:16:09
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3754, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 953 
+  Problem seed: 123 
+Setting seed: 953
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3754
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.817 0.18 0.29 0.183 0.784
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/53/953-result.RData
+########## Executing jid=954 ##########
+Timestamp: 2016-04-28 14:16:09
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3758, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 954 
+  Problem seed: 123 
+Setting seed: 954
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3758
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.869 0.147 0.216 0.131 0.474
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/54/954-result.RData
+########## Executing jid=955 ##########
+Timestamp: 2016-04-28 14:16:10
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3552, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 955 
+  Problem seed: 123 
+Setting seed: 955
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3552
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.99 0.00685 0.03769 0.01 0.82166
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/55/955-result.RData
+########## Executing jid=956 ##########
+Timestamp: 2016-04-28 14:16:10
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3790, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 956 
+  Problem seed: 123 
+Setting seed: 956
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3790
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.69 0.335 0.401 0.31 0.715
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/56/956-result.RData
+########## Executing jid=957 ##########
+Timestamp: 2016-04-28 14:16:11
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=59, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 957 
+  Problem seed: 123 
+Setting seed: 957
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 59
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9533 0.0467 0.072 0.0467 0.6782
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/57/957-result.RData
+########## Executing jid=958 ##########
+Timestamp: 2016-04-28 14:16:11
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3555, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 958 
+  Problem seed: 123 
+Setting seed: 958
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3555
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.836 0.164 0.217 0.164 0.511
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/58/958-result.RData
+########## Executing jid=959 ##########
+Timestamp: 2016-04-28 14:16:12
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3676, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 959 
+  Problem seed: 123 
+Setting seed: 959
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3676
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.947 0.0599 0.0776 0.053 0.604
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/59/959-result.RData
+########## Executing jid=960 ##########
+Timestamp: 2016-04-28 14:16:12
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3052, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 960 
+  Problem seed: 123 
+Setting seed: 960
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3052
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.787 0.175 0.231 0.212 0.496
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/60/960-result.RData
+########## Executing jid=961 ##########
+Timestamp: 2016-04-28 14:16:13
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3906, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 961 
+  Problem seed: 123 
+Setting seed: 961
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3906
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.775 0.464 0.411 0.225 0.988
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/61/961-result.RData
+########## Executing jid=962 ##########
+Timestamp: 2016-04-28 14:16:13
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3059, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 962 
+  Problem seed: 123 
+Setting seed: 962
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3059
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.806 0.194 0.312 0.194 0.772
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/62/962-result.RData
+########## Executing jid=963 ##########
+Timestamp: 2016-04-28 14:16:14
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3613, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 963 
+  Problem seed: 123 
+Setting seed: 963
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3613
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9461 0.072 0.0732 0.0539 0.8677
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/63/963-result.RData
+########## Executing jid=964 ##########
+Timestamp: 2016-04-28 14:16:15
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=10089, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 964 
+  Problem seed: 123 
+Setting seed: 964
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 10089
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 1 0 0.00308 0 0.62243
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/64/964-result.RData
+########## Executing jid=965 ##########
+Timestamp: 2016-04-28 14:16:15
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3753, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 965 
+  Problem seed: 123 
+Setting seed: 965
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3753
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.713 0.43 0.402 0.287 0.902
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/65/965-result.RData
+########## Executing jid=966 ##########
+Timestamp: 2016-04-28 14:16:16
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=47, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 966 
+  Problem seed: 123 
+Setting seed: 966
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 47
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.656 0.344 0.502 0.344 0.53
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/66/966-result.RData
+########## Executing jid=967 ##########
+Timestamp: 2016-04-28 14:16:16
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3726, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 967 
+  Problem seed: 123 
+Setting seed: 967
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3726
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.667 0.336 0.382 0.333 0.494
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/67/967-result.RData
+########## Executing jid=968 ##########
+Timestamp: 2016-04-28 14:16:17
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3746, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 968 
+  Problem seed: 123 
+Setting seed: 968
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3746
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.817 0.182 0.278 0.183 0.542
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/68/968-result.RData
+########## Executing jid=969 ##########
+Timestamp: 2016-04-28 14:16:17
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3922, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 969 
+  Problem seed: 123 
+Setting seed: 969
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3922
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.753 0.344 0.391 0.247 0.823
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/69/969-result.RData
+########## Executing jid=970 ##########
+Timestamp: 2016-04-28 14:16:18
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3614, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 970 
+  Problem seed: 123 
+Setting seed: 970
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3614
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.761 0.307 0.303 0.239 0.802
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/70/970-result.RData
+########## Executing jid=971 ##########
+Timestamp: 2016-04-28 14:16:19
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9984, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 971 
+  Problem seed: 123 
+Setting seed: 971
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9984
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.87 0.434 0.226 0.13 0.989
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/71/971-result.RData
+########## Executing jid=972 ##########
+Timestamp: 2016-04-28 14:16:19
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3765, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 972 
+  Problem seed: 123 
+Setting seed: 972
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3765
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.619 0.38 0.502 0.381 0.563
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/72/972-result.RData
+########## Executing jid=973 ##########
+Timestamp: 2016-04-28 14:16:20
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3949, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 973 
+  Problem seed: 123 
+Setting seed: 973
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3949
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.669 0.331 0.424 0.331 0.522
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/73/973-result.RData
+########## Executing jid=974 ##########
+Timestamp: 2016-04-28 14:16:26
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9897, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 974 
+  Problem seed: 123 
+Setting seed: 974
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9897
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.698 0.393 0.484 0.302 0.768
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/74/974-result.RData
+########## Executing jid=975 ##########
+Timestamp: 2016-04-28 14:16:27
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3912, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 975 
+  Problem seed: 123 
+Setting seed: 975
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3912
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.861 0.223 0.228 0.139 0.879
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/75/975-result.RData
+########## Executing jid=976 ##########
+Timestamp: 2016-04-28 14:16:27
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3585, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 976 
+  Problem seed: 123 
+Setting seed: 976
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3585
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.752 0.332 0.342 0.248 0.846
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/76/976-result.RData
+########## Executing jid=977 ##########
+Timestamp: 2016-04-28 14:16:28
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3724, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 977 
+  Problem seed: 123 
+Setting seed: 977
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3724
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.853 0.147 0.252 0.147 0.527
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/77/977-result.RData
+########## Executing jid=978 ##########
+Timestamp: 2016-04-28 14:16:28
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3569, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 978 
+  Problem seed: 123 
+Setting seed: 978
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3569
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 1 0 0.0442 0 0.8177
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/78/978-result.RData
+########## Executing jid=979 ##########
+Timestamp: 2016-04-28 14:16:29
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3923, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 979 
+  Problem seed: 123 
+Setting seed: 979
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3923
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9 0.467 0.167 0.1 0.995
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/79/979-result.RData
+########## Executing jid=980 ##########
+Timestamp: 2016-04-28 14:16:30
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=42, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 980 
+  Problem seed: 123 
+Setting seed: 980
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 42
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.742 0.413 0.378 0.258 0.929
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/80/980-result.RData
+########## Executing jid=981 ##########
+Timestamp: 2016-04-28 14:16:31
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3542, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 981 
+  Problem seed: 123 
+Setting seed: 981
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3542
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9886 0.0547 0.028 0.0114 0.9682
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/81/981-result.RData
+########## Executing jid=982 ##########
+Timestamp: 2016-04-28 14:16:31
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3058, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 982 
+  Problem seed: 123 
+Setting seed: 982
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3058
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.471 0.54 0.667 0.529 0.609
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/82/982-result.RData
+########## Executing jid=983 ##########
+Timestamp: 2016-04-28 14:16:36
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3679, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 983 
+  Problem seed: 123 
+Setting seed: 983
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3679
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.861 0.137 0.189 0.139 0.513
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/83/983-result.RData
+########## Executing jid=984 ##########
+Timestamp: 2016-04-28 14:16:36
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3599, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 984 
+  Problem seed: 123 
+Setting seed: 984
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3599
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9426 0.0845 0.0856 0.0574 0.6945
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/84/984-result.RData
+########## Executing jid=985 ##########
+Timestamp: 2016-04-28 14:16:37
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9948, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 985 
+  Problem seed: 123 
+Setting seed: 985
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9948
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.415 0.738 0.727 0.585 0.852
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/85/985-result.RData
+########## Executing jid=986 ##########
+Timestamp: 2016-04-28 14:16:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3539, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 986 
+  Problem seed: 123 
+Setting seed: 986
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3539
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.935 0.065 0.128 0.065 0.5
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/86/986-result.RData
+########## Executing jid=987 ##########
+Timestamp: 2016-04-28 14:16:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3788, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 987 
+  Problem seed: 123 
+Setting seed: 987
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3788
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9443 0.0566 0.0762 0.0557 0.5335
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/87/987-result.RData
+########## Executing jid=988 ##########
+Timestamp: 2016-04-28 14:16:39
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3661, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 988 
+  Problem seed: 123 
+Setting seed: 988
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3661
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9856 0.0221 0.0363 0.0144 0.6847
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/88/988-result.RData
+########## Executing jid=989 ##########
+Timestamp: 2016-04-28 14:16:39
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9963, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 989 
+  Problem seed: 123 
+Setting seed: 989
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9963
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9381 0.0619 0.1074 0.0619 0.6553
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/89/989-result.RData
+########## Executing jid=990 ##########
+Timestamp: 2016-04-28 14:16:40
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9958, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 990 
+  Problem seed: 123 
+Setting seed: 990
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9958
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 1 0 0.00528 0 0.50631
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/90/990-result.RData
+########## Executing jid=991 ##########
+Timestamp: 2016-04-28 14:16:41
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3630, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 991 
+  Problem seed: 123 
+Setting seed: 991
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3630
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9133 0.2841 0.1136 0.0867 0.9766
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/91/991-result.RData
+########## Executing jid=992 ##########
+Timestamp: 2016-04-28 14:16:41
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3590, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 992 
+  Problem seed: 123 
+Setting seed: 992
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3590
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.868 0.134 0.197 0.132 0.567
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/92/992-result.RData
+########## Executing jid=993 ##########
+Timestamp: 2016-04-28 14:16:42
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3910, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 993 
+  Problem seed: 123 
+Setting seed: 993
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3910
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9048 0.2682 0.1603 0.0952 0.95
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/93/993-result.RData
+########## Executing jid=994 ##########
+Timestamp: 2016-04-28 14:16:43
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3804, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 994 
+  Problem seed: 123 
+Setting seed: 994
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3804
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.836 0.167 0.239 0.164 0.598
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/94/994-result.RData
+########## Executing jid=995 ##########
+Timestamp: 2016-04-28 14:16:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3631, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 995 
+  Problem seed: 123 
+Setting seed: 995
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3631
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9368 0.142 0.0897 0.0632 0.9672
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/95/995-result.RData
+########## Executing jid=996 ##########
+Timestamp: 2016-04-28 14:16:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3062, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 996 
+  Problem seed: 123 
+Setting seed: 996
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3062
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.759 0.314 0.369 0.241 0.868
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/96/996-result.RData
+########## Executing jid=997 ##########
+Timestamp: 2016-04-28 14:16:45
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3665, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 997 
+  Problem seed: 123 
+Setting seed: 997
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3665
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.878 0.123 0.174 0.122 0.552
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/97/997-result.RData
+########## Executing jid=998 ##########
+Timestamp: 2016-04-28 14:16:45
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3650, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 998 
+  Problem seed: 123 
+Setting seed: 998
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3650
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9111 0.0889 0.1516 0.0889 0.5395
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/98/998-result.RData
+########## Executing jid=999 ##########
+Timestamp: 2016-04-28 14:16:46
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3815, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 999 
+  Problem seed: 123 
+Setting seed: 999
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3815
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.794 0.253 0.317 0.206 0.712
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/99/999-result.RData
+########## Executing jid=1000 ##########
+Timestamp: 2016-04-28 14:16:47
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9939, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 1000 
+  Problem seed: 123 
+Setting seed: 1000
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9939
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.848 0.199 0.216 0.152 0.841
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/00/1000-result.RData
+########## Executing jid=1001 ##########
+Timestamp: 2016-04-28 14:16:47
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3587, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 1001 
+  Problem seed: 123 
+Setting seed: 1001
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3587
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.885 0.115 0.185 0.115 0.521
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/01/1001-result.RData
+########## Executing jid=1002 ##########
+Timestamp: 2016-04-28 14:16:48
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=9953, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 1002 
+  Problem seed: 123 
+Setting seed: 1002
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 9953
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.698 0.488 0.468 0.302 0.95
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/02/1002-result.RData
+########## Executing jid=1003 ##########
+Timestamp: 2016-04-28 14:16:49
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=3887, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 1 
+  Seed: 1003 
+  Problem seed: 123 
+Setting seed: 1003
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 3887
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:5] 0.9125 0.1511 0.1186 0.0875 0.8765
+  ..- attr(*, "names")= chr [1:5] "ACC" "BER" "multiclass.brier" "MMCE" ...
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/03/1003-result.RData
+2016-04-28 14:16:49: All done.
+Setting work back to: /nfsmb/koll/probst/Random_Forest/RFSplitbias/results
+Memory usage according to gc:
+          used (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1741410 93.1    2637877 140.9  1993238 106.5
+Vcells 4647642 35.5    9778062  74.7  9511750  72.6

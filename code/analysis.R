@@ -6,6 +6,7 @@ load(paste0(dir, "/results/datasetsinfo.RData"))
 
 regis = loadRegistry(paste0(dir, "/results/Splitbias-files"))
 res = loadResults(regis)
+res = res[which(sapply(res, "[[", 2)[2,] != "oob")]
 
 # globale Ergebnisse
 ids = list()

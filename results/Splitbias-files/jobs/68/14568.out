@@ -1,0 +1,2090 @@
+Loading registry: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/registry.RData
+Loading conf: 
+2016-04-28 17:33:53: Starting job on node lin65.
+Auto-mailer settings: start=none, done=none, error=none.
+Setting work dir: /nfsmb/koll/probst/Random_Forest/RFSplitbias/results
+########## Executing jid=14568 ##########
+Timestamp: 2016-04-28 17:33:53
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 25 
+  Seed: 14568 
+  Problem seed: 147 
+Setting seed: 14568
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 360 284 80549 208133
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/68/14568-result.RData
+########## Executing jid=14569 ##########
+Timestamp: 2016-04-28 17:33:54
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 26 
+  Seed: 14569 
+  Problem seed: 148 
+Setting seed: 14569
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 281 78693 210610
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/69/14569-result.RData
+########## Executing jid=14570 ##########
+Timestamp: 2016-04-28 17:33:54
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 27 
+  Seed: 14570 
+  Problem seed: 149 
+Setting seed: 14570
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 282 79731 210755
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/70/14570-result.RData
+########## Executing jid=14571 ##########
+Timestamp: 2016-04-28 17:33:55
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 28 
+  Seed: 14571 
+  Problem seed: 150 
+Setting seed: 14571
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 364 291 84610 211545
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/71/14571-result.RData
+########## Executing jid=14572 ##########
+Timestamp: 2016-04-28 17:33:56
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 29 
+  Seed: 14572 
+  Problem seed: 151 
+Setting seed: 14572
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 290 84040 209923
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/72/14572-result.RData
+########## Executing jid=14573 ##########
+Timestamp: 2016-04-28 17:33:57
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 30 
+  Seed: 14573 
+  Problem seed: 152 
+Setting seed: 14573
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 285 80985 210155
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/73/14573-result.RData
+########## Executing jid=14574 ##########
+Timestamp: 2016-04-28 17:33:57
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 31 
+  Seed: 14574 
+  Problem seed: 153 
+Setting seed: 14574
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 365 270 72769 212264
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/74/14574-result.RData
+########## Executing jid=14575 ##########
+Timestamp: 2016-04-28 17:33:58
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 32 
+  Seed: 14575 
+  Problem seed: 154 
+Setting seed: 14575
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 364 279 77976 211043
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/75/14575-result.RData
+########## Executing jid=14576 ##########
+Timestamp: 2016-04-28 17:33:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 33 
+  Seed: 14576 
+  Problem seed: 155 
+Setting seed: 14576
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 283 80029 208108
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/76/14576-result.RData
+########## Executing jid=14577 ##########
+Timestamp: 2016-04-28 17:33:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 34 
+  Seed: 14577 
+  Problem seed: 156 
+Setting seed: 14577
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 361 276 75916 208557
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/77/14577-result.RData
+########## Executing jid=14578 ##########
+Timestamp: 2016-04-28 17:34:00
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 35 
+  Seed: 14578 
+  Problem seed: 157 
+Setting seed: 14578
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 364 288 83026 210388
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/78/14578-result.RData
+########## Executing jid=14579 ##########
+Timestamp: 2016-04-28 17:34:01
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 36 
+  Seed: 14579 
+  Problem seed: 158 
+Setting seed: 14579
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 285 80991 210712
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/79/14579-result.RData
+########## Executing jid=14580 ##########
+Timestamp: 2016-04-28 17:34:02
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 37 
+  Seed: 14580 
+  Problem seed: 159 
+Setting seed: 14580
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 285 81099 208794
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/80/14580-result.RData
+########## Executing jid=14581 ##########
+Timestamp: 2016-04-28 17:34:02
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 38 
+  Seed: 14581 
+  Problem seed: 160 
+Setting seed: 14581
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 366 280 78661 212550
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/81/14581-result.RData
+########## Executing jid=14582 ##########
+Timestamp: 2016-04-28 17:34:03
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 39 
+  Seed: 14582 
+  Problem seed: 161 
+Setting seed: 14582
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 286 81967 211209
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/82/14582-result.RData
+########## Executing jid=14583 ##########
+Timestamp: 2016-04-28 17:34:04
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 40 
+  Seed: 14583 
+  Problem seed: 162 
+Setting seed: 14583
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 282 79773 209866
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/83/14583-result.RData
+########## Executing jid=14584 ##########
+Timestamp: 2016-04-28 17:34:05
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 41 
+  Seed: 14584 
+  Problem seed: 163 
+Setting seed: 14584
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 364 276 76199 212549
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/84/14584-result.RData
+########## Executing jid=14585 ##########
+Timestamp: 2016-04-28 17:34:06
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 42 
+  Seed: 14585 
+  Problem seed: 164 
+Setting seed: 14585
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 291 84539 210436
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/85/14585-result.RData
+########## Executing jid=14586 ##########
+Timestamp: 2016-04-28 17:34:07
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 43 
+  Seed: 14586 
+  Problem seed: 165 
+Setting seed: 14586
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 288 82853 208919
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/86/14586-result.RData
+########## Executing jid=14587 ##########
+Timestamp: 2016-04-28 17:34:07
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 44 
+  Seed: 14587 
+  Problem seed: 166 
+Setting seed: 14587
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 290 83817 209051
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/87/14587-result.RData
+########## Executing jid=14588 ##########
+Timestamp: 2016-04-28 17:34:08
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 45 
+  Seed: 14588 
+  Problem seed: 167 
+Setting seed: 14588
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 282 79524 211076
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/88/14588-result.RData
+########## Executing jid=14589 ##########
+Timestamp: 2016-04-28 17:34:09
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 46 
+  Seed: 14589 
+  Problem seed: 168 
+Setting seed: 14589
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 362 287 82123 210280
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/89/14589-result.RData
+########## Executing jid=14590 ##########
+Timestamp: 2016-04-28 17:34:11
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 47 
+  Seed: 14590 
+  Problem seed: 169 
+Setting seed: 14590
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 365 289 83795 213458
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/90/14590-result.RData
+########## Executing jid=14591 ##########
+Timestamp: 2016-04-28 17:34:12
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 48 
+  Seed: 14591 
+  Problem seed: 170 
+Setting seed: 14591
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 363 289 83369 211964
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/91/14591-result.RData
+########## Executing jid=14592 ##########
+Timestamp: 2016-04-28 17:34:12
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 49 
+  Seed: 14592 
+  Problem seed: 171 
+Setting seed: 14592
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 365 279 77631 211502
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/92/14592-result.RData
+########## Executing jid=14593 ##########
+Timestamp: 2016-04-28 17:34:13
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=2294, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 50 
+  Seed: 14593 
+  Problem seed: 172 
+Setting seed: 14593
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 2294
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 361 280 78202 208931
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/93/14593-result.RData
+########## Executing jid=14594 ##########
+Timestamp: 2016-04-28 17:34:14
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 11 
+  Seed: 14594 
+  Problem seed: 133 
+Setting seed: 14594
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 756 247 60770 3435977
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/94/14594-result.RData
+########## Executing jid=14595 ##########
+Timestamp: 2016-04-28 17:34:15
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 12 
+  Seed: 14595 
+  Problem seed: 134 
+Setting seed: 14595
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 720 243 58953 3084058
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/95/14595-result.RData
+########## Executing jid=14596 ##########
+Timestamp: 2016-04-28 17:34:16
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 13 
+  Seed: 14596 
+  Problem seed: 135 
+Setting seed: 14596
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 743 246 60316 3337488
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/96/14596-result.RData
+########## Executing jid=14597 ##########
+Timestamp: 2016-04-28 17:34:17
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 14 
+  Seed: 14597 
+  Problem seed: 136 
+Setting seed: 14597
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 751 242 58732 3358877
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/97/14597-result.RData
+########## Executing jid=14598 ##########
+Timestamp: 2016-04-28 17:34:18
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 15 
+  Seed: 14598 
+  Problem seed: 137 
+Setting seed: 14598
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 741 241 58122 3291840
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/98/14598-result.RData
+########## Executing jid=14599 ##########
+Timestamp: 2016-04-28 17:34:19
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 16 
+  Seed: 14599 
+  Problem seed: 138 
+Setting seed: 14599
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 758 250 62559 3428931
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/99/14599-result.RData
+########## Executing jid=14600 ##########
+Timestamp: 2016-04-28 17:34:20
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 17 
+  Seed: 14600 
+  Problem seed: 139 
+Setting seed: 14600
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 737 242 58326 3250341
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/00/14600-result.RData
+########## Executing jid=14601 ##########
+Timestamp: 2016-04-28 17:34:22
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 18 
+  Seed: 14601 
+  Problem seed: 140 
+Setting seed: 14601
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 753 235 55077 3390000
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/01/14601-result.RData
+########## Executing jid=14602 ##########
+Timestamp: 2016-04-28 17:34:23
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 19 
+  Seed: 14602 
+  Problem seed: 141 
+Setting seed: 14602
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 763 247 61156 3545257
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/02/14602-result.RData
+########## Executing jid=14603 ##########
+Timestamp: 2016-04-28 17:34:24
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 20 
+  Seed: 14603 
+  Problem seed: 142 
+Setting seed: 14603
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 759 231 53552 3372503
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/03/14603-result.RData
+########## Executing jid=14604 ##########
+Timestamp: 2016-04-28 17:34:25
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 21 
+  Seed: 14604 
+  Problem seed: 143 
+Setting seed: 14604
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 759 231 53209 3519862
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/04/14604-result.RData
+########## Executing jid=14605 ##########
+Timestamp: 2016-04-28 17:34:26
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 22 
+  Seed: 14605 
+  Problem seed: 144 
+Setting seed: 14605
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 731 247 60820 3168781
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/05/14605-result.RData
+########## Executing jid=14606 ##########
+Timestamp: 2016-04-28 17:34:27
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 23 
+  Seed: 14606 
+  Problem seed: 145 
+Setting seed: 14606
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 726 240 57683 3222592
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/06/14606-result.RData
+########## Executing jid=14607 ##########
+Timestamp: 2016-04-28 17:34:28
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 24 
+  Seed: 14607 
+  Problem seed: 146 
+Setting seed: 14607
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 742 238 56622 3255930
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/07/14607-result.RData
+########## Executing jid=14608 ##########
+Timestamp: 2016-04-28 17:34:29
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 25 
+  Seed: 14608 
+  Problem seed: 147 
+Setting seed: 14608
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 737 241 57928 3247012
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/08/14608-result.RData
+########## Executing jid=14609 ##########
+Timestamp: 2016-04-28 17:34:29
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 26 
+  Seed: 14609 
+  Problem seed: 148 
+Setting seed: 14609
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 749 243 58868 3305973
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/09/14609-result.RData
+########## Executing jid=14610 ##########
+Timestamp: 2016-04-28 17:34:30
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 27 
+  Seed: 14610 
+  Problem seed: 149 
+Setting seed: 14610
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 741 237 56336 3302904
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/10/14610-result.RData
+########## Executing jid=14611 ##########
+Timestamp: 2016-04-28 17:34:31
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 28 
+  Seed: 14611 
+  Problem seed: 150 
+Setting seed: 14611
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 741 230 53099 3316735
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/11/14611-result.RData
+########## Executing jid=14612 ##########
+Timestamp: 2016-04-28 17:34:32
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 29 
+  Seed: 14612 
+  Problem seed: 151 
+Setting seed: 14612
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 739 242 58658 3243852
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/12/14612-result.RData
+########## Executing jid=14613 ##########
+Timestamp: 2016-04-28 17:34:33
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 30 
+  Seed: 14613 
+  Problem seed: 152 
+Setting seed: 14613
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 748 232 53643 3346362
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/13/14613-result.RData
+########## Executing jid=14614 ##########
+Timestamp: 2016-04-28 17:34:34
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 31 
+  Seed: 14614 
+  Problem seed: 153 
+Setting seed: 14614
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 744 242 58572 3320426
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/14/14614-result.RData
+########## Executing jid=14615 ##########
+Timestamp: 2016-04-28 17:34:34
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 32 
+  Seed: 14615 
+  Problem seed: 154 
+Setting seed: 14615
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 767 252 63693 3556527
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/15/14615-result.RData
+########## Executing jid=14616 ##########
+Timestamp: 2016-04-28 17:34:35
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 33 
+  Seed: 14616 
+  Problem seed: 155 
+Setting seed: 14616
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 739 245 59961 3265721
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/16/14616-result.RData
+########## Executing jid=14617 ##########
+Timestamp: 2016-04-28 17:34:36
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 34 
+  Seed: 14617 
+  Problem seed: 156 
+Setting seed: 14617
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 751 246 60567 3375772
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/17/14617-result.RData
+########## Executing jid=14618 ##########
+Timestamp: 2016-04-28 17:34:37
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 35 
+  Seed: 14618 
+  Problem seed: 157 
+Setting seed: 14618
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 725 241 58006 3112250
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/18/14618-result.RData
+########## Executing jid=14619 ##########
+Timestamp: 2016-04-28 17:34:37
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 36 
+  Seed: 14619 
+  Problem seed: 158 
+Setting seed: 14619
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 762 232 53900 3568265
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/19/14619-result.RData
+########## Executing jid=14620 ##########
+Timestamp: 2016-04-28 17:34:38
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 37 
+  Seed: 14620 
+  Problem seed: 159 
+Setting seed: 14620
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 740 229 52397 3292957
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/20/14620-result.RData
+########## Executing jid=14621 ##########
+Timestamp: 2016-04-28 17:34:39
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 38 
+  Seed: 14621 
+  Problem seed: 160 
+Setting seed: 14621
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 762 248 61712 3462381
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/21/14621-result.RData
+########## Executing jid=14622 ##########
+Timestamp: 2016-04-28 17:34:40
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 39 
+  Seed: 14622 
+  Problem seed: 161 
+Setting seed: 14622
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 743 237 56034 3314571
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/22/14622-result.RData
+########## Executing jid=14623 ##########
+Timestamp: 2016-04-28 17:34:40
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 40 
+  Seed: 14623 
+  Problem seed: 162 
+Setting seed: 14623
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 755 236 55767 3379814
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/23/14623-result.RData
+########## Executing jid=14624 ##########
+Timestamp: 2016-04-28 17:34:41
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 41 
+  Seed: 14624 
+  Problem seed: 163 
+Setting seed: 14624
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 748 233 54315 3350136
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/24/14624-result.RData
+########## Executing jid=14625 ##########
+Timestamp: 2016-04-28 17:34:42
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 42 
+  Seed: 14625 
+  Problem seed: 164 
+Setting seed: 14625
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 746 246 60635 3379010
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/25/14625-result.RData
+########## Executing jid=14626 ##########
+Timestamp: 2016-04-28 17:34:42
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 43 
+  Seed: 14626 
+  Problem seed: 165 
+Setting seed: 14626
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 724 250 62321 3118916
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/26/14626-result.RData
+########## Executing jid=14627 ##########
+Timestamp: 2016-04-28 17:34:43
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 44 
+  Seed: 14627 
+  Problem seed: 166 
+Setting seed: 14627
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 753 239 56908 3379984
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/27/14627-result.RData
+########## Executing jid=14628 ##########
+Timestamp: 2016-04-28 17:34:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 45 
+  Seed: 14628 
+  Problem seed: 167 
+Setting seed: 14628
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 750 241 58110 3295277
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/28/14628-result.RData
+########## Executing jid=14629 ##########
+Timestamp: 2016-04-28 17:34:44
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 46 
+  Seed: 14629 
+  Problem seed: 168 
+Setting seed: 14629
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 749 241 58046 3399896
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/29/14629-result.RData
+########## Executing jid=14630 ##########
+Timestamp: 2016-04-28 17:34:45
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 47 
+  Seed: 14630 
+  Problem seed: 169 
+Setting seed: 14630
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 762 251 62912 3556110
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/30/14630-result.RData
+########## Executing jid=14631 ##########
+Timestamp: 2016-04-28 17:34:46
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 48 
+  Seed: 14631 
+  Problem seed: 170 
+Setting seed: 14631
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 736 232 53824 3177158
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/31/14631-result.RData
+########## Executing jid=14632 ##########
+Timestamp: 2016-04-28 17:34:46
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 49 
+  Seed: 14632 
+  Problem seed: 171 
+Setting seed: 14632
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 761 243 58959 3486721
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/32/14632-result.RData
+########## Executing jid=14633 ##########
+Timestamp: 2016-04-28 17:34:47
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4880, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 50 
+  Seed: 14633 
+  Problem seed: 172 
+Setting seed: 14633
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4880
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 742 250 62276 3301061
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/33/14633-result.RData
+########## Executing jid=14634 ##########
+Timestamp: 2016-04-28 17:34:48
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 11 
+  Seed: 14634 
+  Problem seed: 133 
+Setting seed: 14634
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 723 204 41429 3247844
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/34/14634-result.RData
+########## Executing jid=14635 ##########
+Timestamp: 2016-04-28 17:34:49
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 12 
+  Seed: 14635 
+  Problem seed: 134 
+Setting seed: 14635
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 713 196 38433 3180860
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/35/14635-result.RData
+########## Executing jid=14636 ##########
+Timestamp: 2016-04-28 17:34:50
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 13 
+  Seed: 14636 
+  Problem seed: 135 
+Setting seed: 14636
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 720 209 43554 3174673
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/36/14636-result.RData
+########## Executing jid=14637 ##########
+Timestamp: 2016-04-28 17:34:50
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 14 
+  Seed: 14637 
+  Problem seed: 136 
+Setting seed: 14637
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 715 208 43198 3143258
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/37/14637-result.RData
+########## Executing jid=14638 ##########
+Timestamp: 2016-04-28 17:34:51
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 15 
+  Seed: 14638 
+  Problem seed: 137 
+Setting seed: 14638
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 725 198 39344 3300803
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/38/14638-result.RData
+########## Executing jid=14639 ##########
+Timestamp: 2016-04-28 17:34:52
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 16 
+  Seed: 14639 
+  Problem seed: 138 
+Setting seed: 14639
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 713 204 41558 3169098
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/39/14639-result.RData
+########## Executing jid=14640 ##########
+Timestamp: 2016-04-28 17:34:53
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 17 
+  Seed: 14640 
+  Problem seed: 139 
+Setting seed: 14640
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 717 202 40751 3227507
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/40/14640-result.RData
+########## Executing jid=14641 ##########
+Timestamp: 2016-04-28 17:34:54
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 18 
+  Seed: 14641 
+  Problem seed: 140 
+Setting seed: 14641
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 730 203 41047 3228803
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/41/14641-result.RData
+########## Executing jid=14642 ##########
+Timestamp: 2016-04-28 17:34:55
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 19 
+  Seed: 14642 
+  Problem seed: 141 
+Setting seed: 14642
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 724 200 40167 3254243
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/42/14642-result.RData
+########## Executing jid=14643 ##########
+Timestamp: 2016-04-28 17:34:55
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 20 
+  Seed: 14643 
+  Problem seed: 142 
+Setting seed: 14643
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 716 209 43523 3124859
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/43/14643-result.RData
+########## Executing jid=14644 ##########
+Timestamp: 2016-04-28 17:34:56
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 21 
+  Seed: 14644 
+  Problem seed: 143 
+Setting seed: 14644
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 708 201 40220 3166400
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/44/14644-result.RData
+########## Executing jid=14645 ##########
+Timestamp: 2016-04-28 17:34:57
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 22 
+  Seed: 14645 
+  Problem seed: 144 
+Setting seed: 14645
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 726 200 39990 3262367
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/45/14645-result.RData
+########## Executing jid=14646 ##########
+Timestamp: 2016-04-28 17:34:58
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 23 
+  Seed: 14646 
+  Problem seed: 145 
+Setting seed: 14646
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 697 203 41350 2961492
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/46/14646-result.RData
+########## Executing jid=14647 ##########
+Timestamp: 2016-04-28 17:34:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 24 
+  Seed: 14647 
+  Problem seed: 146 
+Setting seed: 14647
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 699 205 42173 3040819
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/47/14647-result.RData
+########## Executing jid=14648 ##########
+Timestamp: 2016-04-28 17:34:59
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 25 
+  Seed: 14648 
+  Problem seed: 147 
+Setting seed: 14648
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 713 199 39569 3185318
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/48/14648-result.RData
+########## Executing jid=14649 ##########
+Timestamp: 2016-04-28 17:35:00
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 26 
+  Seed: 14649 
+  Problem seed: 148 
+Setting seed: 14649
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 728 194 37655 3234123
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/49/14649-result.RData
+########## Executing jid=14650 ##########
+Timestamp: 2016-04-28 17:35:01
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 27 
+  Seed: 14650 
+  Problem seed: 149 
+Setting seed: 14650
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 708 204 41413 3126873
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/50/14650-result.RData
+########## Executing jid=14651 ##########
+Timestamp: 2016-04-28 17:35:02
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 28 
+  Seed: 14651 
+  Problem seed: 150 
+Setting seed: 14651
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 720 203 41368 3242528
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/51/14651-result.RData
+########## Executing jid=14652 ##########
+Timestamp: 2016-04-28 17:35:03
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 29 
+  Seed: 14652 
+  Problem seed: 151 
+Setting seed: 14652
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 723 204 41497 3183516
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/52/14652-result.RData
+########## Executing jid=14653 ##########
+Timestamp: 2016-04-28 17:35:04
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 30 
+  Seed: 14653 
+  Problem seed: 152 
+Setting seed: 14653
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 723 207 43051 3240473
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/53/14653-result.RData
+########## Executing jid=14654 ##########
+Timestamp: 2016-04-28 17:35:04
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 31 
+  Seed: 14654 
+  Problem seed: 153 
+Setting seed: 14654
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 713 203 41332 3208912
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/54/14654-result.RData
+########## Executing jid=14655 ##########
+Timestamp: 2016-04-28 17:35:05
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 32 
+  Seed: 14655 
+  Problem seed: 154 
+Setting seed: 14655
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 721 204 41802 3234498
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/55/14655-result.RData
+########## Executing jid=14656 ##########
+Timestamp: 2016-04-28 17:35:06
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 33 
+  Seed: 14656 
+  Problem seed: 155 
+Setting seed: 14656
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 726 207 42874 3255340
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/56/14656-result.RData
+########## Executing jid=14657 ##########
+Timestamp: 2016-04-28 17:35:07
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 34 
+  Seed: 14657 
+  Problem seed: 156 
+Setting seed: 14657
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 724 202 40807 3171729
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/57/14657-result.RData
+########## Executing jid=14658 ##########
+Timestamp: 2016-04-28 17:35:08
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 35 
+  Seed: 14658 
+  Problem seed: 157 
+Setting seed: 14658
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 705 202 40886 3094205
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/58/14658-result.RData
+########## Executing jid=14659 ##########
+Timestamp: 2016-04-28 17:35:09
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 36 
+  Seed: 14659 
+  Problem seed: 158 
+Setting seed: 14659
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 728 201 40241 3238764
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/59/14659-result.RData
+########## Executing jid=14660 ##########
+Timestamp: 2016-04-28 17:35:10
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 37 
+  Seed: 14660 
+  Problem seed: 159 
+Setting seed: 14660
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 716 192 36771 3189109
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/60/14660-result.RData
+########## Executing jid=14661 ##########
+Timestamp: 2016-04-28 17:35:10
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 38 
+  Seed: 14661 
+  Problem seed: 160 
+Setting seed: 14661
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 717 204 41770 3186624
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/61/14661-result.RData
+########## Executing jid=14662 ##########
+Timestamp: 2016-04-28 17:35:11
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 39 
+  Seed: 14662 
+  Problem seed: 161 
+Setting seed: 14662
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 734 198 39060 3273375
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/62/14662-result.RData
+########## Executing jid=14663 ##########
+Timestamp: 2016-04-28 17:35:12
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 40 
+  Seed: 14663 
+  Problem seed: 162 
+Setting seed: 14663
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 719 203 41366 3240228
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/63/14663-result.RData
+########## Executing jid=14664 ##########
+Timestamp: 2016-04-28 17:35:13
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 41 
+  Seed: 14664 
+  Problem seed: 163 
+Setting seed: 14664
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 697 202 40650 3032931
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/64/14664-result.RData
+########## Executing jid=14665 ##########
+Timestamp: 2016-04-28 17:35:14
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 42 
+  Seed: 14665 
+  Problem seed: 164 
+Setting seed: 14665
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 711 197 38749 3099050
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/65/14665-result.RData
+########## Executing jid=14666 ##########
+Timestamp: 2016-04-28 17:35:14
+Experiment: 
+  Problem: taski 
+  Problem parameters: idi=4879, learner=, teststat=, testtype= 
+  Algorithm: forest.splitbias.oob 
+  Algorithm parameters:  
+  Replication: 43 
+  Seed: 14666 
+  Problem seed: 165 
+Setting seed: 14666
+Applying Algorithm forest.splitbias.oob ...
+Generating problem taski ...
+Result:
+List of 3
+ $ idi   : int 4879
+ $ lrn   : chr [1:3] "randomForest" "oob" ""
+ $ result: Named num [1:4] 722 201 40487 3277767
+  ..- attr(*, "names")= chr [1:4] "MAE" "MEDAE" "MEDSE" "MSE"
+NULL
+Writing result file: /home/probst/Random_Forest/RFSplitbias/results/Splitbias-files/jobs/66/14666-result.RData
+2016-04-28 17:35:15: All done.
+Setting work back to: /nfsmb/koll/probst/Random_Forest/RFSplitbias/results
+Memory usage according to gc:
+          used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells 1993832 106.5    3205452 171.2  2123231 113.4
+Vcells 4664838  35.6   15996972 122.1 10310786  78.7

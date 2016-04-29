@@ -66,18 +66,54 @@ forest.splitbias.wr = function(static, dynamic, ...) {
 addAlgorithm(regis, id = "forest.splitbias", fun = forest.splitbias.wr, overwrite = TRUE)
 forest.design = makeDesign("forest.splitbias")
 
+forest.splitbias.wr.oob = function(static, dynamic, ...) {
+  if(static[static$task_id == dynamic$idi, 2] == "Supervised Classification") {
+    lvl = table(dynamic$data[, dynamic$target])
+    dynamic$data = dynamic$data[dynamic$data[, dynamic$target] %in% names(lvl[lvl >= 5]), ] 
+    dynamic$data[,dynamic$target] = droplevels(as.factor(dynamic$data[,dynamic$target]))
+    pred <- randomForest(formula = dynamic$formula, data = dynamic$data, ntree = 1000, replace = FALSE)
+    pred = predict(pred, type = "prob")
+    pred2 = factor(colnames(pred)[max.col(pred)], levels = colnames(pred))
+    conf.matrix = getConfMatrix2(dynamic, pred2, relative = TRUE)
+    k = nrow(conf.matrix)
+    AUC = -1
+    AUCtry = try(multiclass.auc2(pred, dynamic$data[,dynamic$target]))
+    if(is.numeric(AUCtry))
+      AUC = AUCtry
+    measures = c(measureACC(dynamic$data[,dynamic$target], pred2), mean(conf.matrix[-k, k]), 
+                 measureMulticlassBrier(pred, dynamic$data[,dynamic$target]), measureMMCE(dynamic$data[,dynamic$target], pred2), AUC)
+    names(measures) = c("ACC", "BER", "multiclass.brier", "MMCE", "multi.AUC")
+  } else {
+    pred <- randomForest(formula = dynamic$formula, data = dynamic$data, ntree = 1000, replace = FALSE)$predicted
+    measures = c(measureMAE(dynamic$data[,dynamic$target] , pred),  measureMEDAE(dynamic$data[,dynamic$target], pred), 
+                 measureMEDSE(dynamic$data[,dynamic$target], pred), measureMSE(dynamic$data[,dynamic$target], pred))
+    names(measures) = c("MAE", "MEDAE", "MEDSE", "MSE")
+  }
+  list(idi = dynamic$idi, lrn = c("randomForest", "oob", ""), result = measures)
+}
+addAlgorithm(regis, id = "forest.splitbias.oob", fun = forest.splitbias.wr.oob, overwrite = TRUE)
+forest.design.oob = makeDesign("forest.splitbias.oob")
+
 splitrule.design = data.frame(learner = c("cforest", "cforest", "randomForest"), 
                                           teststat = c("quad", "max", ""), testtype = c("Univariate", "Teststatistic", "") )
 n_exp = nrow(splitrule.design)
 splitrule.design = as.data.frame(splitrule.design[rep(1:nrow(splitrule.design), nrow(tasks)) ,])
 splitrule.design = data.frame(idi = rep(tasks$task_id, each = n_exp), splitrule.design)
 splitrule.design = makeDesign("taski", design = splitrule.design)
-
 addExperiments(regis, repls = 1, prob.designs = splitrule.design, algo.designs = forest.design) 
 
-testJob(regis)
+splitrule.design2 = data.frame(learner = c(""), teststat = c(""), testtype = c("") )
+n_exp = nrow(splitrule.design2)
+splitrule.design2 = as.data.frame(splitrule.design2[rep(1:nrow(splitrule.design2), nrow(tasks)) ,])
+splitrule.design2 = data.frame(idi = rep(tasks$task_id, each = n_exp), splitrule.design2)
+splitrule.design2 = makeDesign("taski", design = splitrule.design2)
+addExperiments(regis, repls = 50, prob.designs = splitrule.design2, algo.designs = forest.design.oob, skip.defined = TRUE) 
 
-chunks = chunk(findNotSubmitted(regis), chunk.size = 100)
+summarizeExperiments(regis)
+ids = findExperiments(regis, algo.pattern = "forest.splitbias.oob")
+testJob(regis, ids[300])
+
+chunks = chunk(ids, chunk.size = 100)
 
 submitJobs(regis, ids = chunks)
 submitJobs(regis, findNotDone(regis))
