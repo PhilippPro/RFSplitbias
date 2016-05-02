@@ -47,5 +47,5 @@ for(j in 1:3){
     print(rowMeans(apply(erg, 1, rank))) # durchschnittliches Ranking
     }
 }
-
+# AUC passt nicht manchmal!
 
