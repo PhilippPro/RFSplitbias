@@ -6,9 +6,9 @@ load(paste0(dir,"/results/reg.RData"))
 
 tasks = rbind(clas_small, reg_small)
 
-datasetsinfo = matrix(NA, nrow = nrow(tasks), ncol = 5)
+datasetsinfo = matrix(NA, nrow = nrow(tasks), ncol = 6)
 nfactor = vector("list", nrow(tasks))
-colnames(datasetsinfo) = c("idi", "nclass", "ncol", "num_feat", "factor_feat")
+colnames(datasetsinfo) = c("idi", "nclass", "ncol", "num_feat", "factor_feat", "n")
 
 for (i in 1:nrow(tasks)) {
   print(i)
@@ -23,6 +23,7 @@ for (i in 1:nrow(tasks)) {
   datasetsinfo[i,3] = ncol(data)
   datasetsinfo[i,4] = sum(sapply(data, class) == "numeric")
   datasetsinfo[i,5] = sum(sapply(data, class) == "factor")
+  datasetsinfo[i,6] = nrow(data)
   if (datasetsinfo[i,5] != 0)
   nfactor[[i]] = table(sapply(as.data.frame(data[,sapply(data, class) == "factor"]), nlevels))
 }
