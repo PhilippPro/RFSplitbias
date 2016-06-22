@@ -6,7 +6,7 @@ dir = "/home/probst/Random_Forest/RFSplitbias"
 setwd(paste0(dir,"/results"))
 source(paste0(dir,"/code/benchmark-ranger-split-defs.R"))
 
-#unlink("benchmark-ranger-split", recursive = TRUE)
+unlink("benchmark-ranger-split", recursive = TRUE)
 regis = makeExperimentRegistry("benchmark-ranger-split", 
                                packages = c("mlr", "OpenML", "methods"),
                                source = "/nfsmb/koll/probst/Random_Forest/RFSplitbias/code/benchmark-ranger-split-defs.R",
@@ -40,16 +40,35 @@ addAlgorithm("eval", fun = function(job, data, instance, lrn.id, ...) {
 
 set.seed(124)
 ades = data.frame()
-for (lid in LEARNERIDS) {
-  ps = makeMyParamSet(lid, task = NULL)
-  des.size = DESSIZE(ps)
-  d = generateDesign(des.size, ps)
-  d = cbind(lrn.id = lid, d, stringsAsFactors = FALSE)
-  ades = rbind.fill(ades, d)
-}
+ps = makeMyParamSet("ranger", task = NULL)
+des.size = DESSIZE(ps)
+d = generateDesign(des.size, ps)
+d = cbind(lrn.id = lid, d, stringsAsFactors = FALSE)
+ades = rbind.fill(ades, d)
+
+ps = makeMyParamSet2("ranger", task = NULL)
+des.size = DESSIZE(ps)
+d = generateDesign(des.size, ps)
+d = cbind(lrn.id = lid, d, stringsAsFactors = FALSE)
+ades = rbind.fill(ades, d)
+
+ps = makeMyParamSet3("ranger", task = NULL)
+des.size = DESSIZE(ps)
+d = generateDesign(des.size, ps)
+d = cbind(lrn.id = lid, d, stringsAsFactors = FALSE)
+ades = rbind.fill(ades, d)
+
+ps = makeMyParamSet4("ranger", task = NULL)
+des.size = DESSIZE(ps)
+d = generateDesign(des.size, ps)
+d = cbind(lrn.id = lid, d, stringsAsFactors = FALSE)
+ades = rbind.fill(ades, d)
+
+
 addExperiments(algo.designs = list(eval = ades))
 
-summarizeExperiments()
+
+summarizeExperiments(ids = 1:400)
 ids = chunkIds(findNotDone(), chunk.size = 1000)
 submitJobs(ids)
 submitJobs(1)
@@ -57,12 +76,11 @@ submitJobs(1)
 getStatus()
 getErrorMessages()
 
+findExperiments(alpha>0.5)
+findJobs(alpha > 0.5)
 
 
-lrn = switch(type, "classif" = makeLearner(lrn.id, predict.type = "prob"), "regr" = makeLearner(lrn.id))
-lrn = setHyperPars(lrn, par.vals = par.vals)
 
-par.vals$splitrule = "maxstat"
 # zu Debugzwecken
 #lrn.id = "ranger"
 #par.vals = as.list(ades[1,-1])

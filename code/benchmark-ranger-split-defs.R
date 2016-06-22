@@ -23,6 +23,37 @@ makeMyParamSet = function(lrn.id, task = NULL) {
          )
 }
 
+makeMyParamSet2 = function(lrn.id, task = NULL) {
+  switch(lrn.id,
+         ranger = makeParamSet(
+           makeDiscreteParam("splitrule", values = c("variance", "maxstat")),
+           makeNumericParam("alpha", lower = 0, upper = 1),
+           makeNumericParam("minprop", lower = 0.1, upper = 0.1)
+         )
+  )
+}
+
+makeMyParamSet3 = function(lrn.id, task = NULL) {
+  switch(lrn.id,
+         ranger = makeParamSet(
+           makeDiscreteParam("splitrule", values = c("variance", "maxstat")),
+           makeNumericParam("alpha", lower = 1, upper = 1),
+           makeNumericParam("minprop", lower = 0, upper = 0.5)
+         )
+  )
+}
+
+makeMyParamSet4 = function(lrn.id, task = NULL) {
+  switch(lrn.id,
+         ranger = makeParamSet(
+           makeDiscreteParam("splitrule", values = c("variance", "maxstat")),
+           makeNumericParam("alpha", lower = 0.9, upper = 1),
+           makeNumericParam("minprop", lower = 0.05, upper = 0.15)
+         )
+  )
+}
+
+
 CONVERTPARVAL = function(par.vals, task, lrn.id) {
   par.vals$num.trees = 3000 # 3000 trees
   par.vals$splitrule = as.character(par.vals$splitrule)
